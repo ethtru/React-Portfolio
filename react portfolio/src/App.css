@@ -1,42 +1,162 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  scroll-behavior: smooth;
+  /* border: 1px solid purple; */
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* establishes main styling for the app with background color and text color  */
+body {
+  background-color: rgb(170, 101, 52);
+  color: wheat;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header {
+  padding: 20px 10px;
+  background-color: seagreen;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* main header styling including subtle shadow to name  */
+h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-shadow: 3px 3px darkgreen;
 }
 
-.card {
-  padding: 2em;
+/* label for main work section image/link  */
+h3 {
+  position: absolute;
+  background-color: seagreen;
+  padding: 30px;
+  color: wheat;
+  font-size: 20px;
+  border-radius: 8px 0px 0px 0px;
 }
 
-.read-the-docs {
-  color: #888;
+/* labels for placeholder elements below main work picture  */
+h4 {
+  position: absolute;
+  background-color: seagreen;
+  padding: 15px;
+  color: wheat;
+  font-size: 15px;
+  border-radius: 8px 0px 0px 0px;
+}
+
+.hero-text {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: large;
+  font-weight: 900;
+}
+
+/* inserts background image of nature and 'cool subtitle'  */
+.hero {
+  text-align: right;
+  padding: 10px;
+  background: url("./assets/images/55DF05E1-EDF7-4D56-9123-2C8B314951DFIMG_3651.jpg")
+    no-repeat;
+  background-size: cover;
+  min-height: 125px;
+}
+
+nav {
+  list-style: none;
+  display: flex;
+  padding: 10px 15px;
+}
+
+/* removes default link elements and styles the according to rest of app  */
+nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: wheat;
+}
+
+section {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  border-color: wheat;
+  border-bottom: 5px solid wheat;
+  padding: 20px 20px;
+  justify-content: space-between;
+}
+
+section > h2 {
+  flex-basis: 50px;
+}
+
+section > p {
+  flex-basis: 900px;
+}
+
+img {
+  border-radius: 8px;
+}
+
+/* establishes size of main picure in work section  */
+#hero-pic {
+  max-width: 900px;
+}
+
+/* adds opacity while hovering and enlarges image slightly while hovering  */
+#hero-pic:hover {
+  opacity: 0.7;
+  transform: scale(1.02);
+}
+
+.sub-pic {
+  width: 425px;
+  height: 100px;
+  border-radius: 8px;
+  background-color: wheat;
+  flex-basis: 900px;
+}
+
+/* adds opacity and transforms a bit larger than hero-pic  */
+.sub-pic:hover {
+  opacity: 0.7;
+  transform: scale(1.05);
+}
+
+/* aligns sub images evenly below main image  */
+#pic-section {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  gap: 50px;
+}
+
+#ethan-pic {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+}
+
+#header-pic {
+  display: flex;
+}
+
+#contact {
+  display: flex;
+}
+
+#bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 900px;
+  gap: 20px;
+}
+
+.no-decoration {
+  text-decoration: none;
+  color: inherit;
 }
