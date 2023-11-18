@@ -9,8 +9,7 @@
 body {
   background-color: rgb(170, 101, 52);
   color: wheat;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .header {
@@ -21,13 +20,15 @@ body {
   display: flex;
   justify-content: space-between;
   font-size: large;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 /* main header styling including subtle shadow to name  */
 h1 {
-  margin-top: 15px;
+  margin-top: 25px;
   margin-bottom: 15px;
-  text-shadow: 3px 3px darkgreen;
+  /* text-shadow: 3px 3px darkgreen; */
+
 }
 
 /* label for main work section image/link  */
@@ -51,10 +52,9 @@ h4 {
 }
 
 .hero-text {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: large;
-  font-weight: 900;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:x-large;
+  font-weight: 1000;
 }
 
 /* inserts background image of nature and 'cool subtitle'  */
@@ -96,6 +96,7 @@ section > h2 {
 
 section > p {
   flex-basis: 900px;
+  font-size: large;
 }
 
 img {
@@ -114,8 +115,8 @@ img {
 }
 
 .sub-pic {
-  width: 425px;
-  height: 100px;
+  width: 825px;
+  height: 150px;
   border-radius: 8px;
   background-color: wheat;
   flex-basis: 900px;
@@ -130,9 +131,11 @@ img {
 /* aligns sub images evenly below main image  */
 #pic-section {
   display: flex;
-  justify-content: right;
-  width: 100%;
+  align-items: flex-end;
+  flex-direction: column;
+  /* width: 100%; */
   gap: 50px;
+  padding-right: 60px;
 }
 
 #ethan-pic {
@@ -147,6 +150,7 @@ img {
 
 #contact {
   display: flex;
+  /* justify-content: space-between; */
 }
 
 #bottom {

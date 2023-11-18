@@ -1,6 +1,6 @@
-import {link} from 'react-router-dom'
+// import {link} from 'react-router-dom'
 
-function Navigation() {
+export default function Navigation() {
     return (
         <nav>
   <a href="#aboutme">About Me </a>
@@ -9,3 +9,4 @@ function Navigation() {
 </nav>
     )
 }
+

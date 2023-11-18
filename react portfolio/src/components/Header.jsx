@@ -1,4 +1,4 @@
-import Navigation from './components/Navigation'
+import Navigation from './Navigation'
 import pic from "../assets/images/PIC.jpg"
 function Header() {
   
