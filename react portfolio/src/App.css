@@ -67,6 +67,22 @@ h4 {
   min-height: 125px;
 }
 
+#matter-of-taste {
+  background: url('./assets/images/logo.png') no-repeat;
+  background-size: contain;
+  background-color: wheat;
+}
+
+#weather {
+  
+}
+
+#tasty-jams {
+  background: url('./assets/images/TastyJams-Logo-Horizontal.jpg') no-repeat;
+  background-size:contain;
+  
+}
+
 nav {
   list-style: none;
   display: flex;
@@ -116,7 +132,7 @@ img {
 
 .sub-pic {
   width: 825px;
-  height: 150px;
+  height: 250px;
   border-radius: 8px;
   background-color: wheat;
   flex-basis: 900px;
@@ -134,7 +150,7 @@ img {
   align-items: flex-end;
   flex-direction: column;
   /* width: 100%; */
-  gap: 50px;
+  gap: 20px;
   padding-right: 60px;
 }
 
