@@ -83,17 +83,21 @@ h4 {
   border-radius: 8px;
 }
 
-nav {
+.nav {
   list-style: none;
   display: flex;
-  padding: 10px 15px;
+  padding: 30px 15px;
+  
 }
 
 /* removes default link elements and styles the according to rest of app  */
-nav a {
+.nav-item a {
   padding: 10px;
   text-decoration: none;
   color: wheat;
+  padding-top: 20%;
+  font-size: larger;
+  
 }
 
 section {
