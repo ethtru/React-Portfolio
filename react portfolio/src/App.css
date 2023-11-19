@@ -80,7 +80,7 @@ h4 {
 #tasty-jams {
   background: url('./assets/images/TastyJams-Logo-Horizontal.jpg') no-repeat;
   background-size:contain;
-  
+  border-radius: 8px;
 }
 
 nav {

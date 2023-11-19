@@ -1,8 +1,7 @@
-import { useState } from 'react'
+import { Outlet } from 'react-router-dom';
 
-import './App.css'
+
 import Header from './components/Header'
-import Project from './components/Project'
 import Footer from './components/Footer'
 
 function App() {
@@ -11,10 +10,10 @@ function App() {
   return (
     <>
     <Header/>
-    <Project/>
+    <Outlet/>
     <Footer/>
     </>
   )
 }
 
-export default App
+export default App;

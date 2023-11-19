@@ -29,7 +29,7 @@ export default function Project() {
               <h4>Tasty Jams</h4>
             </div>
           </a>
-          <a href="https://github.com/ethtru/Note-Taker">
+          <a href="https://et-note-taker-f273f1d6e088.herokuapp.com/notes">
             <div class="sub-pic">
               <h4>Note Taker</h4>
             </div>
