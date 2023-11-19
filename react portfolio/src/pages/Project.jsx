@@ -1,9 +1,9 @@
-
+import Footer from "../components/Footer"
 
 export default function Project() {
     return (
-        <section>
-        <h2 id="work">Work</h2>
+        <>
+        <h1>Work</h1>
         {/* <a href="https://ethtru.github.io/first-challenge/">
           <h3>Horiseon</h3>
           <img
@@ -35,6 +35,7 @@ export default function Project() {
             </div>
           </a>
         </div>
-      </section>
+        <Footer/>
+      </>
     )
 }

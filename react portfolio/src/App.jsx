@@ -11,7 +11,7 @@ function App() {
     <>
     <Header/>
     <Outlet/>
-    <footer><Footer/></footer>
+ 
     </>
   )
 }
