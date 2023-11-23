@@ -238,3 +238,19 @@ img {
   min-height: 100vh;
 }
 
+/* Style buttons */
+.btn {
+  
+  background-color: seagreen;
+  border: none;
+  color: wheat;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 40%;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: rgb(58, 132, 90);
+}
