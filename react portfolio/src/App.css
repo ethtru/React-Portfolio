@@ -37,7 +37,7 @@ h1 {
 
 #aboutMe {
   display: block;
-  padding-left: 200px;
+  padding-left: 190px;
   padding-right: 50px;
   padding-top: 30px;
   text-align: justify;
@@ -218,17 +218,23 @@ img {
   
 }
 
-footer {
+.footer {
   display: flex;
   justify-content: space-around;
   height: 50px;
-  margin-top: 20px;
+  margin-top: auto;
   padding: 20px;
- 
+  
 }
 
 .no-decoration {
   text-decoration: none;
   color: inherit;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
