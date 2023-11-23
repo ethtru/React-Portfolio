@@ -14,7 +14,7 @@ export default function Home() {
           functional web applications. Please have a look around my site to see
           some of my work!
         </p>
-        <Footer/>
+       
       </>
         
     )

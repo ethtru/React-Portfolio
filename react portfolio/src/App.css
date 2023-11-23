@@ -186,14 +186,49 @@ img {
   /* justify-content: space-between; */
 }
 
+#name-form {
+  display: flex;
+  margin-left: 343px;
+  padding: 20px;
+}
+
+#content-form {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: seagreen;
+  color: wheat;
+  font-weight: 900;
+  height: 40px;
+  width: 90px;
+  border-radius: 9px;
+  box-shadow: none;
+
+}
+
+#button-div {
+  display: flex;
+ margin-left: 655px;
+  
+}
+
 footer {
   display: flex;
-  justify-content: space-between;
-  margin-top: auto;
-
+  justify-content: space-around;
+  height: 50px;
+  margin-top: 20px;
+  padding: 20px;
+ 
 }
 
 .no-decoration {
   text-decoration: none;
   color: inherit;
 }
+

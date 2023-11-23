@@ -35,7 +35,7 @@ export default function Project() {
             </div>
           </a>
         </div>
-        <Footer/>
+   
       </>
     )
 }
