@@ -87,13 +87,21 @@ h4 {
 }
 
 #weather {
-  
+  background: url('./assets/images/E6E4F6EF-FFB0-4327-992E-1A5916EA54B3.jpeg') no-repeat;
+  background-size: cover;
 }
 
 #tasty-jams {
   background: url('./assets/images/TastyJams-Logo-Horizontal.jpg') no-repeat;
   background-size:contain;
   border-radius: 8px;
+}
+
+#code-quiz {
+
+  background: url('./assets/images/14931DDB-8201-4F83-9F73-E48C28D89352.jpeg') no-repeat;
+  background-size: cover;
+
 }
 
 .nav {
@@ -248,9 +256,20 @@ img {
   cursor: pointer;
   font-size: 20px;
   margin-left: 40%;
+  margin-top: 20px;
 }
 
 /* Darker background on mouse-over */
 .btn:hover {
   background-color: rgb(58, 132, 90);
+}
+
+#proficiencies {
+  margin-left: 525px;
+  padding-bottom: 30px;
+}
+
+#li {
+
+  margin-left: 500px;
 }
